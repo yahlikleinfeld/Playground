@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class _Variables {
     public static void main(String[] args) {
         System.out.println("Variables");
@@ -8,6 +10,7 @@ public class _Variables {
         int age2 = age;
         System.out.println(age2); // 35
 
+        // primitive types
         byte floor = 3;
         int number = 12;
         long postcode = 2092030923092L; // L
@@ -15,6 +18,10 @@ public class _Variables {
         float size = 149.99F; // F
         char entranceLetter = 'B';
         boolean fun = true; // false
+
+        // reference types
+        Date now = new Date();
+        System.out.println(now);
 
 
     }
